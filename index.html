@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/98cfcb559a.js" crossorigin="anonymous"></script>
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="header">
+            <h2>ToDo List <img src="images/icon.png" alt="todo"></h2>
+        </div>
+        <div class="todo_input_container">
+            <div class="todo_input">
+                <input type="text" name="todoInput" id="toDoInput" placeholder="Add your text...">
+                <button id="addTodoBtn" onclick="addToDo()">Add</button>
+            </div>
+        </div>
+        <div class="error_message">
+            <h2>You must write something! ✍🏻</h2>
+        </div>
+        <ul class="list_container" id="listContainer">
+            <!-- <li class="checked">Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li> -->
+        </ul>
+    </div>
+</body>
+
+</html>
